@@ -1,0 +1,6 @@
+booking	route	from_day	due	grade	count	state
+O1	R1	13	16	heavy	1	signed
+O2	R2	13	16	heavy	1	signed
+O3	R3	14	17	light	2	offer
+O4	R4	14	16	light	1	offer
+O5	R2	16	21	heavy	2	offer

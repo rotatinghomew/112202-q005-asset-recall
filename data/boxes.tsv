@@ -1,0 +1,11 @@
+box	manufacturer	type	grade	dispatch	sleeve
+B1	Y	renew	heavy	1	K1
+B2	Y	renew	heavy	1	K1
+B3	Y	renew	light	1	K2
+B4	Y	renew	light	1	K3
+B5	Z	single	light	1	K4
+B6	Z	single	heavy	1	K5
+B7	Z	single	light	1	K6
+B8	Y	renew	light	1	K2
+B9	Y	renew	heavy	8	K7
+B10	Z	single	heavy	8	K8

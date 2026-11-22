@@ -1,0 +1,11 @@
+loan	due	expected_node	weather	condition
+L1	7	N	dry	normal
+L2	8	N	dry	normal
+L3	8	N	wet	normal
+L4	10	N	wet	normal
+L5	10	N	wet	normal
+L6	8	N	dry	normal
+L7	10	N	dry	normal
+L8	15	N	wet	repaired
+L9	15	N	dry	normal
+L10	15	N	dry	normal

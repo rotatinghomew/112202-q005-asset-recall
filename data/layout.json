@@ -1,51 +1,58 @@
 {
-  "assets.tsv": [
-    "version",
-    "asset",
-    "corpus",
-    "topic",
-    "view",
-    "audience",
-    "channel",
-    "since",
-    "until"
+  "boxes.tsv": [
+    "box",
+    "manufacturer",
+    "type",
+    "grade",
+    "dispatch",
+    "sleeve"
   ],
-  "terms.tsv": [
-    "topic",
-    "phrase"
-  ],
-  "requests.tsv": [
-    "request",
+  "circulation.tsv": [
+    "move",
+    "box",
+    "sleeve",
+    "loan",
     "day",
-    "audience",
-    "topic",
-    "channel",
-    "bundle"
+    "received",
+    "node",
+    "event",
+    "route"
   ],
-  "exposure.tsv": [
-    "exposure",
-    "request",
-    "source",
-    "slate",
-    "propensity",
-    "used",
-    "received"
+  "loan_terms.tsv": [
+    "loan",
+    "due",
+    "expected_node",
+    "weather",
+    "condition"
   ],
-  "adoption.tsv": [
-    "entry",
-    "channel",
-    "audience",
-    "min_gain",
-    "min_support",
-    "horizon",
-    "new_requests"
+  "routes.tsv": [
+    "route",
+    "lend",
+    "return",
+    "allowed_wash",
+    "expected_days"
   ],
-  "inquiries.tsv": [
-    "request",
+  "wash.tsv": [
+    "node",
     "day",
-    "audience",
-    "topic",
-    "channel",
-    "bundle"
+    "slots",
+    "special_slots"
+  ],
+  "commitments.tsv": [
+    "booking",
+    "route",
+    "from_day",
+    "due",
+    "grade",
+    "count",
+    "state"
+  ],
+  "costs.tsv": [
+    "type",
+    "purchase",
+    "use",
+    "wash",
+    "loss",
+    "ceiling"
   ]
 }

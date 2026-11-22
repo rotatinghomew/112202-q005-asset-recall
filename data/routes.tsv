@@ -1,0 +1,5 @@
+route	lend	return	allowed_wash	expected_days
+R1	S	N	N,H	2,4
+R2	W	N	N	3,6
+R3	N	N	N,H	2,5
+R4	S	H	H	2,5
