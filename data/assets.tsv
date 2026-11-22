@@ -1,0 +1,9 @@
+version	asset	corpus	topic	view	audience	channel	since	until
+A1	A	DOC1	bird	full	kids,teacher,adult	school,museum	1	7
+A2	A	DOC1	bird	full	kids,teacher	museum	1	-
+B2	B	DOC1	bird	detail	kids,teacher,adult	school,museum	1	-
+C1	C	DOC2	metal	full	kids,teacher,adult	school,museum	1	-
+D1	D	DOC2	metal	detail	adult,teacher,kids	school,museum	1	-
+D2	D	DOC2	metal	detail	kids,teacher,adult	museum	3	-
+E1	E	DOC3	bird	detail	teacher,kids	school,museum	6	-
+F1	F	DOC4	bird	full	kids,teacher	school,museum	7	-

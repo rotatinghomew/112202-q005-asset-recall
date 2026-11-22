@@ -1,0 +1,51 @@
+{
+  "assets.tsv": [
+    "version",
+    "asset",
+    "corpus",
+    "topic",
+    "view",
+    "audience",
+    "channel",
+    "since",
+    "until"
+  ],
+  "terms.tsv": [
+    "topic",
+    "phrase"
+  ],
+  "requests.tsv": [
+    "request",
+    "day",
+    "audience",
+    "topic",
+    "channel",
+    "bundle"
+  ],
+  "exposure.tsv": [
+    "exposure",
+    "request",
+    "source",
+    "slate",
+    "propensity",
+    "used",
+    "received"
+  ],
+  "adoption.tsv": [
+    "entry",
+    "channel",
+    "audience",
+    "min_gain",
+    "min_support",
+    "horizon",
+    "new_requests"
+  ],
+  "inquiries.tsv": [
+    "request",
+    "day",
+    "audience",
+    "topic",
+    "channel",
+    "bundle"
+  ]
+}

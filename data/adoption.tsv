@@ -1,0 +1,3 @@
+entry	channel	audience	min_gain	min_support	horizon	new_requests
+EN1	school	kids	0.03	0.60	4	12
+EN2	museum	teacher	0.05	0.70	4	6
