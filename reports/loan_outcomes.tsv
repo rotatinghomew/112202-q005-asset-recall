@@ -1,0 +1,11 @@
+loan	box	type	grade	weather	condition	route	loan_day	due	close_day	close_event	status	days_on_loan	late_days	turnaround_days
+L1	B1	renew	heavy	dry	normal	R1	2	7	5	return	returned	3	0	3
+L2	B2	renew	heavy	dry	normal	R2	3	8	5	identify_return	returned	2	0	2
+L3	B3	renew	light	wet	normal	R1	3	8	6	return	returned	3	0	3
+L4	B4	renew	light	wet	normal	R3	4	10	11	loss	borrower_loss	7	1	7
+L5	B5	single	light	wet	normal	R3	4	10	?	?	open_overdue	8	2	?
+L6	B6	single	heavy	dry	normal	R1	5	8	8	recycle	recycled	3	0	3
+L7	B7	single	light	dry	normal	R2	6	10	10	recycle	recycled	4	0	4
+L8	B8	renew	light	wet	repaired	R1	9	15	11	return	returned	2	0	2
+L9	B9	renew	heavy	dry	normal	R2	10	15	?	?	open_due	2	0	?
+L10	B10	single	heavy	dry	normal	R2	10	15	?	?	open_due	2	0	?

@@ -1,0 +1,17 @@
+scenario	booking	route	grade	count	state	feasible	assigned_boxes	wash_plan	reason
+S0_全量(signed+全部offer)	O1	R1	heavy	1	signed	0			可兑现盒不足（需 1）: B1@H: 节点 H 在可排程窗口内无 heavy 专用洗护余量; B1@N: 节点 N 在可排程窗口内无 heavy 专用洗护余量; B2@H: 节点 H 在可排程窗口内无 heavy 专用洗护余量; B9@H: 节点 H 在可排程窗口内无 heavy 专用洗护余量; B9@N: 节点 N 在可排程窗口内无 heavy 专用洗护余量
+S0_全量(signed+全部offer)	O2	R2	heavy	1	signed	0			可兑现盒不足（需 1）: B1@N: 节点 N 在可排程窗口内无 heavy 专用洗护余量; B9@N: 节点 N 在可排程窗口内无 heavy 专用洗护余量
+S0_全量(signed+全部offer)	O3	R3	light	2	offer	0			可兑现盒不足（需 2）: B3@H: 节点 H 在可排程窗口内无洗护余量; B3@N: 节点 N 在可排程窗口内无洗护余量; B8@H: 节点 H 在可排程窗口内无洗护余量; B8@N: 节点 N 在可排程窗口内无洗护余量
+S0_全量(signed+全部offer)	O4	R4	light	1	offer	0			可兑现盒不足（需 1）: B3@H: 节点 H 在可排程窗口内无洗护余量; B8@H: 节点 H 在可排程窗口内无洗护余量
+S0_全量(signed+全部offer)	O5	R2	heavy	2	offer	0			可兑现盒不足（需 2）: B1@N: 节点 N 在可排程窗口内无 heavy 专用洗护余量; B9@N: 节点 N 在可排程窗口内无 heavy 专用洗护余量
+S1_只停借R3不关回收	O1	R1	heavy	1	signed	0			可兑现盒不足（需 1）: B1@H: 节点 H 在可排程窗口内无 heavy 专用洗护余量; B1@N: 节点 N 在可排程窗口内无 heavy 专用洗护余量; B2@H: 节点 H 在可排程窗口内无 heavy 专用洗护余量; B9@H: 节点 H 在可排程窗口内无 heavy 专用洗护余量; B9@N: 节点 N 在可排程窗口内无 heavy 专用洗护余量
+S1_只停借R3不关回收	O2	R2	heavy	1	signed	0			可兑现盒不足（需 1）: B1@N: 节点 N 在可排程窗口内无 heavy 专用洗护余量; B9@N: 节点 N 在可排程窗口内无 heavy 专用洗护余量
+S1_只停借R3不关回收	O4	R4	light	1	offer	0			可兑现盒不足（需 1）: B3@H: 节点 H 在可排程窗口内无洗护余量; B8@H: 节点 H 在可排程窗口内无洗护余量
+S1_只停借R3不关回收	O5	R2	heavy	2	offer	0			可兑现盒不足（需 2）: B1@N: 节点 N 在可排程窗口内无 heavy 专用洗护余量; B9@N: 节点 N 在可排程窗口内无 heavy 专用洗护余量
+S2_停R3且R4替代调拨	O1	R1	heavy	1	signed	0			可兑现盒不足（需 1）: B1@H: 节点 H 在可排程窗口内无 heavy 专用洗护余量; B1@N: 节点 N 在可排程窗口内无 heavy 专用洗护余量; B2@H: 节点 H 在可排程窗口内无 heavy 专用洗护余量; B9@H: 节点 H 在可排程窗口内无 heavy 专用洗护余量; B9@N: 节点 N 在可排程窗口内无 heavy 专用洗护余量
+S2_停R3且R4替代调拨	O2	R2	heavy	1	signed	0			可兑现盒不足（需 1）: B1@N: 节点 N 在可排程窗口内无 heavy 专用洗护余量; B9@N: 节点 N 在可排程窗口内无 heavy 专用洗护余量
+S2_停R3且R4替代调拨	O3	R4	light	2	offer	0			可兑现盒不足（需 2）: B3@H: 节点 H 在可排程窗口内无洗护余量; B8@H: 节点 H 在可排程窗口内无洗护余量 [已由 R3 配调替代至 R4]
+S2_停R3且R4替代调拨	O4	R4	light	1	offer	0			可兑现盒不足（需 1）: B3@H: 节点 H 在可排程窗口内无洗护余量; B8@H: 节点 H 在可排程窗口内无洗护余量
+S2_停R3且R4替代调拨	O5	R2	heavy	2	offer	0			可兑现盒不足（需 2）: B1@N: 节点 N 在可排程窗口内无 heavy 专用洗护余量; B9@N: 节点 N 在可排程窗口内无 heavy 专用洗护余量
+S3_仅兑现signed承诺	O1	R1	heavy	1	signed	0			可兑现盒不足（需 1）: B1@H: 节点 H 在可排程窗口内无 heavy 专用洗护余量; B1@N: 节点 N 在可排程窗口内无 heavy 专用洗护余量; B2@H: 节点 H 在可排程窗口内无 heavy 专用洗护余量; B9@H: 节点 H 在可排程窗口内无 heavy 专用洗护余量; B9@N: 节点 N 在可排程窗口内无 heavy 专用洗护余量
+S3_仅兑现signed承诺	O2	R2	heavy	1	signed	0			可兑现盒不足（需 1）: B1@N: 节点 N 在可排程窗口内无 heavy 专用洗护余量; B9@N: 节点 N 在可排程窗口内无 heavy 专用洗护余量

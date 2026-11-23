@@ -1,0 +1,11 @@
+box	type	grade	sleeve	dispatch	service_days	exposures	wears	repairs	transfers	status	location	wash_state	open_loan	note
+B1	renew	heavy	K1	1	11	1	0	0	1	available	W	needs_wash	-	-
+B2	renew	heavy	K1	1	11	1	0	0	0	available	N	needs_wash	-	-
+B3	renew	light	K2	1	11	1	1	1	1	available	S	needs_wash	-	-
+B4	renew	light	K3	1	11	1	0	0	0	lost	?	unknown	-	-
+B5	single	light	K4	1	11	1	1	0	0	in_circulation	?	unknown	L5	-
+B6	single	heavy	K5	1	11	1	0	0	0	recycled	N	unknown	-	-
+B7	single	light	K6	1	11	1	0	0	0	recycled	N	unknown	-	-
+B8	renew	light	K2	1	11	1	0	0	0	available	S	needs_wash	-	-
+B9	renew	heavy	K7	8	4	1	0	0	0	in_circulation	?	unknown	L9	-
+B10	single	heavy	K8	8	4	1	0	0	0	in_circulation	?	unknown	L10	-

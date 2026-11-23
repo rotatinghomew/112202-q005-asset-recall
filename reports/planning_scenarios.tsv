@@ -1,0 +1,5 @@
+scenario	active_routes	keep_return_points	feasible	unmet	exposure_change	frozen_in_circulation	loss_risk_reserve	next_period_avoidable_cost	prior_period_sunk_loss	within_budget	capacity_risks	idle_lendable
+S0_全量(signed+全部offer)	R1,R2,R3,R4		0	O1,O2,O3,O4,O5	0	1	0	0	3900	1		
+S1_只停借R3不关回收	R1,R2,R4	R3	0	O1,O2,O4,O5	0	1	0	0	3900	1		
+S2_停R3且R4替代调拨	R1,R2,R4	R3	0	O1,O2,O3,O4,O5	0	1	0	0	3900	1		
+S3_仅兑现signed承诺	R1,R2,R3,R4		0	O1,O2	0	1	0	0	3900	1		

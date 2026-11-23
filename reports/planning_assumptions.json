@@ -1,0 +1,11 @@
+{
+  "cutoff_day": 12,
+  "transfer_leads": {
+    "H->S": 3,
+    "N->S": 2,
+    "N->W": 3,
+    "W->N": 5
+  },
+  "unknown_pair_lead": 5,
+  "note": "未观测点对采用保守前置；同节点前置为0；实测记录可覆盖默认值"
+}

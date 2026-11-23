@@ -1,0 +1,8 @@
+scope	key	exposures	service_days	returned	late_returns	late_days	overdue_before_loss	scan_lag_events	scan_lag_days	wear_events	repairs	borrower_loss	recycled	unidentified	open_due	use_cost	wash_cost	borrower_loss_cost	unidentified_risk_cost	purchase_cost	total_cash_cost	loss_per_100_use	risk_per_100_use	loss_per_100_service_day	risk_per_100_service_day	avg_turnaround_days	cost_per_use	cost_per_service_day
+all	ALL	10	96	4	0	0	1	1	7	2	1	1	2	1	2	180	0	3900	680	26120	4080	10.0	20.0	1.04	2.08	3.43	408.0	42.5
+type	renew	6	59	4	0	0	1	1	7	1	1	1	0	0	1	180	0	3900	0	23400	4080	16.67	16.67	1.69	1.69	3.4	680.0	69.15
+type	single	4	37	0	0	0	0	0	0	1	0	0	2	1	1	0	0	0	680	2720	0	0.0	25.0	0.0	2.7	3.5	0.0	0.0
+route	R1	4	44	3	0	0	0	0	0	1	1	0	1	0	0	90	0	0	0	12380	90	0.0	0.0	0.0	0.0	2.75	22.5	2.05
+route	R2	4	30	1	0	0	0	1	7	0	0	0	1	0	2	60	0	0	0	9160	60	0.0	0.0	0.0	0.0	3.0	15.0	2.0
+route	R3	2	22	0	0	0	1	0	0	1	0	1	0	1	0	30	0	3900	680	4580	3930	50.0	100.0	4.55	9.09	7.0	1965.0	178.64
+route	R4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0.0	0.0	0.0	?	0.0	0.0

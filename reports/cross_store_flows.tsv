@@ -1,0 +1,7 @@
+move	day	from_node	to_node	box	kind	routes	ambiguous	unidentified
+M22	5	W	N	B2	identify_return	R2	0	0
+M3	5	S	N	B1	return	R1,R2	1	0
+M5	6	S	N	B3	return	R1	0	0
+M21	7	S	?	B1	transfer	R2	0	0
+M20	10	N	?	B3	transfer	R1	0	0
+M17	11	S	N	B8	return	R1	0	0

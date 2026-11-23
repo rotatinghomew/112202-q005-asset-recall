@@ -1,0 +1,114 @@
+{
+  "cutoff_day": 12,
+  "resolution_count": 1,
+  "ambiguous_resolution": false,
+  "assignments": {
+    "M3": "B1",
+    "M17": "B8"
+  },
+  "missed_scan": [],
+  "scan_lags": [
+    [
+      "M22",
+      7
+    ],
+    [
+      "M21",
+      5
+    ]
+  ],
+  "unidentified_returns": [],
+  "comparison": "inconclusive：共同支持层内没有可识别的耐久差异，禁止宣称更耐久",
+  "scenarios": [
+    {
+      "name": "S0_全量(signed+全部offer)",
+      "feasible": false,
+      "unmet": [
+        "O1",
+        "O2",
+        "O3",
+        "O4",
+        "O5"
+      ],
+      "within_budget": true,
+      "next_cost": 0,
+      "sunk": 3900
+    },
+    {
+      "name": "S1_只停借R3不关回收",
+      "feasible": false,
+      "unmet": [
+        "O1",
+        "O2",
+        "O4",
+        "O5"
+      ],
+      "within_budget": true,
+      "next_cost": 0,
+      "sunk": 3900
+    },
+    {
+      "name": "S2_停R3且R4替代调拨",
+      "feasible": false,
+      "unmet": [
+        "O1",
+        "O2",
+        "O3",
+        "O4",
+        "O5"
+      ],
+      "within_budget": true,
+      "next_cost": 0,
+      "sunk": 3900
+    },
+    {
+      "name": "S3_仅兑现signed承诺",
+      "feasible": false,
+      "unmet": [
+        "O1",
+        "O2"
+      ],
+      "within_budget": true,
+      "next_cost": 0,
+      "sunk": 3900
+    }
+  ],
+  "submission_audit": {
+    "decisions_still_valid": [
+      "Q-EX1",
+      "Q-EX2"
+    ],
+    "decisions_broken": [
+      [
+        "O1",
+        "可兑现盒不足（需 1）: B1@H: 节点 H 在可排程窗口内无 heavy 专用洗护余量; B1@N: 节点 N 在可排程窗口内无 heavy 专用洗护余量; B2@H: 节点 H 在可排程窗口内无 heavy 专用洗护余量; B9@H: 节点 H 在可排程窗口内无 heavy 专用洗护余量; B9@N: 节点 N 在可排程窗口内无 heavy 专用洗护余量"
+      ],
+      [
+        "O2",
+        "可兑现盒不足（需 1）: B1@N: 节点 N 在可排程窗口内无 heavy 专用洗护余量; B9@N: 节点 N 在可排程窗口内无 heavy 专用洗护余量"
+      ],
+      [
+        "O3",
+        "可兑现盒不足（需 2）: B3@H: 节点 H 在可排程窗口内无洗护余量; B3@N: 节点 N 在可排程窗口内无洗护余量; B8@H: 节点 H 在可排程窗口内无洗护余量; B8@N: 节点 N 在可排程窗口内无洗护余量"
+      ],
+      [
+        "O4",
+        "可兑现盒不足（需 1）: B3@H: 节点 H 在可排程窗口内无洗护余量; B8@H: 节点 H 在可排程窗口内无洗护余量"
+      ],
+      [
+        "O5",
+        "可兑现盒不足（需 2）: B1@N: 节点 N 在可排程窗口内无 heavy 专用洗护余量; B9@N: 节点 N 在可排程窗口内无 heavy 专用洗护余量"
+      ]
+    ],
+    "unmet_commitments": {
+      "O1": 1,
+      "O2": 1,
+      "O3": 2,
+      "O4": 1,
+      "O5": 2
+    },
+    "sunk_gap": 3900,
+    "avoidable_gap": 0,
+    "ceiling": 10800
+  }
+}

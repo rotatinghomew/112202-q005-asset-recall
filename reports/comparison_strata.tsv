@@ -1,0 +1,5 @@
+grade	weather	condition	renew_n	single_n	renew_borrower_loss	single_borrower_loss	renew_wear	renew_unidentified	single_unidentified	fisher_p	comparable	conclusion
+heavy	dry	normal	3	2	0	0	0	0	0	?	1	inconclusive
+light	dry	normal	0	1	0	0	0	0	0	?	0	no_common_support
+light	wet	normal	2	1	1	0	1	0	1	1.0	1	inconclusive
+light	wet	repaired	1	0	0	0	0	0	0	?	0	no_common_support

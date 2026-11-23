@@ -1,0 +1,5 @@
+submission	route	from_day	due	grade	count	box	kind
+Q-EX1	R1	20	23	light	1	?	new_loan
+Q-EX2	R2	18	22	heavy	1	B1	new_loan
+Q-ID1	?	?	?	?	1	B1	identity:M3
+Q-ID2	?	?	?	?	1	B8	identity:M17

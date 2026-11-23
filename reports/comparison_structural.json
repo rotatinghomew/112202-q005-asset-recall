@@ -1,0 +1,33 @@
+{
+  "overall_conclusion": "inconclusive：共同支持层内没有可识别的耐久差异，禁止宣称更耐久",
+  "identifiable": false,
+  "structural_effects": {
+    "renew": {
+      "exposures": 6,
+      "return_share": 0.667,
+      "borrower_loss_share": 0.167,
+      "recycle_share": 0.0,
+      "unidentified_share": 0.0,
+      "boxes_needs_wash": 4,
+      "return_paths": {
+        "N->?/transfer": 1,
+        "S->?/transfer": 1,
+        "S->N/return": 3,
+        "W->N/identify_return": 1
+      }
+    },
+    "single": {
+      "exposures": 4,
+      "return_share": 0.0,
+      "borrower_loss_share": 0.0,
+      "recycle_share": 0.5,
+      "unidentified_share": 0.25,
+      "boxes_needs_wash": 0,
+      "return_paths": {}
+    }
+  },
+  "selection_notes": [
+    "renew 路线暴露分布: {'R1': 3, 'R2': 2, 'R3': 1}；single 路线暴露分布: {'R1': 1, 'R2': 2, 'R3': 1}",
+    "封签匿名归还在本批数据上归属唯一，无跨店重复领回空间"
+  ]
+}
